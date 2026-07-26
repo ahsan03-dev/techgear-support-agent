@@ -1,8 +1,9 @@
 # TechGear Support Agent (RAG)
 
-A production-grade Retrieval-Augmented Generation (RAG) system, engineered for speed, accuracy, and real-world reliability. This demo showcases the engine on a customer support use case, but the underlying architecture is fully domain-agnostic: connect it to any knowledge base, and it delivers instant, accurate answers grounded directly in your own documents.
+Built on **Retrieval-Augmented Generation (RAG)**, this system answers questions instantly and accurately by pulling directly from your own documents, not from guesswork. This demo shows it running as a customer support assistant, but the same engine adapts to any use case: connect it to your knowledge base, and every answer stays grounded in your actual content.
+
+---
 <br>
-----
 <br>
 
 ## What This System Solves
