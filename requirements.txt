@@ -1,0 +1,7 @@
+langchain-huggingface
+supabase
+sentence-transformers
+groq
+streamlit
+torchvision
+python-dotenv
