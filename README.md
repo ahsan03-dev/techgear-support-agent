@@ -2,7 +2,6 @@
 
 Built on **Retrieval-Augmented Generation (RAG)**, this system answers questions instantly and accurately by pulling directly from your own documents, not from guesswork. This demo shows it running as a customer support assistant, but the same engine adapts to any use case: connect it to your knowledge base, and every answer stays grounded in your actual content.
 
----
 <br>
 <br>
 
