@@ -11,9 +11,8 @@ Most support and knowledge-lookup experiences are either too generic to be usefu
 
 The result is a support experience that answers instantly, stays accurate to the source material, and scales to any size knowledge base without retraining a model.
 
-
----
-
+<br>
+<br>
 
 ## Core Capabilities
 
@@ -22,17 +21,15 @@ The result is a support experience that answers instantly, stays accurate to the
 - **Token Streaming:** delivers low-latency, word-by-word streaming responses for a natural chat experience.
 - **Session Caching:** caches heavy models and active database connections to optimize response speed and resource usage.
 
-
----
-
+<br>
+<br>
 
 ## Live Demo
 
 **[Try the Live Web App](https://your-app-name.streamlit.app)**
 
-
----
-
+<br>
+<br>
 
 ## Where This Applies
 
@@ -46,9 +43,8 @@ The retrieval engine underneath this demo is domain-agnostic. Swapping the sourc
 
 TechGear serves as the demonstration dataset in this repository; the underlying pipeline requires no code changes to serve any of the above, only a new set of source documents.
 
-
----
-
+<br>
+<br>
 
 ## Architecture & Tech Stack
 
@@ -61,9 +57,8 @@ TechGear serves as the demonstration dataset in this repository; the underlying 
 
 **Design rationale:** Supabase (Postgres + `pgvector`) was selected over a dedicated vector database because it natively supports hybrid search and deploys cleanly to production with zero extra infrastructure. Groq was chosen for the generation layer for its low-latency inference on open-source models, and Qwen3-Embedding was selected for strong retrieval performance relative to its size. Every choice was made on technical merit, not cost.
 
-
----
-
+<br>
+<br>
 
 ## Local Setup & Installation
 
@@ -106,9 +101,8 @@ TechGear serves as the demonstration dataset in this repository; the underlying 
    streamlit run app.py
    ```
 
-
----
-
+<br>
+<br>
 
 ## Adapting This to a New Domain
 
