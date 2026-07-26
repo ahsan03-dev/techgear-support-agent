@@ -67,8 +67,7 @@ TechGear serves as the demonstration dataset in this repository; the underlying 
 
    ```bash
    python -m venv venv
-   venv\Scripts\activate      # Windows (Command Prompt)
-   # for Linux/macOs : source venv/bin/activate
+   venv\Scripts\activate      #Linux/macOs : source venv/bin/activate
    pip install -r requirements.txt
    ```
 
