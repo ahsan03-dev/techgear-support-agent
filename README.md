@@ -25,7 +25,7 @@ The result is a support experience that answers instantly, stays accurate to the
 
 ## Live Demo
 
-**[Try the Live Web App](https://your-app-name.streamlit.app)**
+**[Try the Live Web App](https://techgear-agent.streamlit.app/)**
 
 <br>
 
