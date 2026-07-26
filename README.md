@@ -3,6 +3,7 @@
 <img width="1365" height="602" alt="image" src="https://github.com/user-attachments/assets/e58c42d4-df24-4b2d-be87-323372ea321b" />
 
 Built on **Retrieval-Augmented Generation (RAG)**, this system answers questions instantly and accurately by pulling directly from your own documents, not from guesswork. This demo shows it running as a customer support assistant, but the same engine adapts to any use case: connect it to your knowledge base, and every answer stays grounded in your actual content.
+**[Live Web App](https://techgear-agent.streamlit.app/)**
 
 <br>
 
@@ -20,12 +21,6 @@ The result is a support experience that answers instantly, stays accurate to the
 - **Context Reranking:** re-scores retrieved document chunks using a cross-encoder model before passing only the most relevant context to the LLM.
 - **Token Streaming:** delivers low-latency, word-by-word streaming responses for a natural chat experience.
 - **Session Caching:** caches heavy models and active database connections to optimize response speed and resource usage.
-
-<br>
-
-## Live Demo
-
-**[Try the Live Web App](https://techgear-agent.streamlit.app/)**
 
 <br>
 
